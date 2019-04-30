@@ -1,31 +1,31 @@
 
+
 { "nodes":[
 
 
-{"FirstChosen":"Java", "group": 1},
-{"FirstChosen":"Java", "group" :1},
-{"FirstChosen":".Net","group": 2},
-{"FirstChosen":".Net","group": 2},
-{"FirstChosen":".Net","group": 2},
-{"FirstChosen":".Net","group": 2},
-{"FirstChosen":".Net","group": 2},
-{"FirstChosen":"C#","group": 1},
-{"FirstChosen":"C#","group": 1},
-{"FirstChosen":"C#","group": 1}
+{"id":"Java", "group": 1},
+{"id":"Java", "group" :1},
+{"id":".Net","group": 2},
+{"id":".Net","group": 2},
+{"id":".Net","group": 2},
+{"id":".Net","group": 2},
+{"id":".Net","group": 2},
+{"id":"C#","group": 1},
+{"id":"C#","group": 1},
+{"id":"C#","group": 1}
 
 ],
 "links": [
 
-{"FirstChosen":"Java","SecondChosen":"Mysql","Score1":3},
-{"FirstChosen":"Java","SecondChosen":"Oracle","Score1":5},
-{"FirstChosen":".Net","SecondChosen":"Mysql","Score1":5},
-{"FirstChosen":".Net","SecondChosen":"AngularJs","Score1":4},
-{"FirstChosen":".Net","SecondChosen":"SQL","Score1":5},
-{"FirstChosen":".Net","SecondChosen":"React","Score1":4},
-{"FirstChosen":".Net","SecondChosen":"Vue","Score1":2},
-{"FirstChosen":"C#","SecondChosen":"Mysql","Score1":1},
-{"FirstChosen":"C#","SecondChosen":"SQL","Score1":5},
-{"FirstChosen":"C#","SecondChosen":"React","Score1":2}
+{"source":"Java","target":"Mysql","value":3},
+{"source":"Java","target":"Oracle","value":5},
+{"source":".Net","target":"Mysql","value":5},
+{"source":".Net","target":"AngularJs","value":4},
+{"source":".Net","target":"SQL","value":5},
+{"source":".Net","target":"React","value":4},
+{"source":".Net","target":"Vue","value":2},
+{"source":"C#","target":"Mysql","value":1},
+{"source":"C#","target":"SQL","value":5},
+{"source":"C#","target":"React","value":2}
 
 ]
-}
