@@ -11,7 +11,23 @@
     {"id": "C#", "group": 1},
     {"id": "C#", "group": 1},
     {"id": "C#", "group": 1},
-    {"id": "C#", "group": 1}
+    {"id": "C#", "group": 1},
+    {"id": "Php", "group": 2},
+    {"id": "Php", "group": 2},
+    {"id": "Php", "group": 2},
+    {"id": "Oracle", "group": 1},
+    {"id": "Oracle", "group": 1},
+    {"id": "AngularJs", "group": 2},
+    {"id": "React", "group": 2},
+    {"id": "React", "group": 2},
+    {"id": "VueJs", "group": 2},
+    {"id": "VueJs", "group": 2}, 
+    {"id": "VueJs", "group": 2},
+    {"id": "VueJs", "group": 2},
+    {"id": "Sql", "group": 1},
+    {"id": "Sql", "group": 1}
+    
+  
    
   ],
   "links": [
