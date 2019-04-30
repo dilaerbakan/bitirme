@@ -1,16 +1,17 @@
+
 { "nodes":[
 
 
-{"ScoreID":1,"FirstChosen":"Java"},
-{"ScoreID":2,"FirstChosen":"Java"},
-{"ScoreID":3,"FirstChosen":".Net"},
-{"ScoreID":4,"FirstChosen":".Net"},
-{"ScoreID":5,"FirstChosen":".Net"},
-{"ScoreID":6,"FirstChosen":".Net"},
-{"ScoreID":7,"FirstChosen":".Net"},
-{"ScoreID":8,"FirstChosen":"C#"},
-{"ScoreID":9,"FirstChosen":"C#"},
-{"ScoreID":10,"FirstChosen":"C#"}
+{"FirstChosen":"Java", "group": 1},
+{"FirstChosen":"Java", "group" :1},
+{"FirstChosen":".Net","group": 2},
+{"FirstChosen":".Net","group": 2},
+{"FirstChosen":".Net","group": 2},
+{"FirstChosen":".Net","group": 2},
+{"FirstChosen":".Net","group": 2},
+{"FirstChosen":"C#","group": 1},
+{"FirstChosen":"C#","group": 1},
+{"FirstChosen":"C#","group": 1}
 
 ],
 "links": [
