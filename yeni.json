@@ -16,14 +16,14 @@
 	],
 	"links":[
 
-		{"source":"Java","target":"Mysql","value":3},
+		{"source":"Java","target":"MySQL","value":3},
 		{"source":"Java","target":"Oracle","value":5},
-		{"source":".Net","target":"Mysql","value":5},
+		{"source":".Net","target":"MySQL","value":5},
 		{"source":".Net","target":"AngularJs","value":4},
 		{"source":".Net","target":"SQL","value":5},
 		{"source":".Net","target":"React","value":4},
-		{"source":".Net","target":"Vue","value":2},
-		{"source":"C#","target":"Mysql","value":1},
+		{"source":".Net","target":"VueJs","value":2},
+		{"source":"C#","target":"MySQL","value":1},
 		{"source":"C#","target":"SQL","value":5},
 		{"source":"C#","target":"React","value":2}
 
