@@ -15,16 +15,16 @@
    
   ],
   "links": [
-    {"source": "Java", "target": "PHP", "value": 1},
+    {"source": "Java", "target": "Php", "value": 1},
     {"source": "Java", "target": "Oracle", "value": 8},
     {"source": ".Net", "target": "Oracle", "value": 4},
     {"source": ".Net", "target": "AngularJs", "value": 6},
     {"source": ".Net", "target": "React", "value": 3},
     {"source": ".Net", "target": "VueJs", "value": 6},
-    {"source": ".Net", "target": "SQL", "value": 5},
-    {"source": "C#", "target": "SQL", "value": 4},
+    {"source": ".Net", "target": "Sql", "value": 5},
+    {"source": "C#", "target": "Sql", "value": 4},
     {"source": "C#", "target": "React", "value": 2},
-    {"source": "C#", "target": "PHP", "value": 3},
+    {"source": "C#", "target": "Php", "value": 3},
     {"source": "C#", "target": "Oracle", "value": 1},
     {"source": "C#", "target": "VueJs", "value": 3}
 
