@@ -1,6 +1,4 @@
 {"nodes":[
-
-
 {"name":"Java", "id":1,"influence":25, "zone":1},
 {"name":"PHP","id":2,"influence":4, "zone":1},
 {"name":"C#","id":3, "influence":20, "zone":1},
@@ -27,14 +25,11 @@
 {"name":"Windows", "id":23,"influence":50, "zone":5},
 {"name":"Linux","id":24,  "influence":30, "zone":5},
 {"name":"MacOS", "id":25,"influence":20, "zone":5},
-{"name":"Android","id":26,  "influence":10, "zone":5}
-
-],
+{"name":"Android","id":26,  "influence":10, "zone":5}],
 
 
- "links": [
- 
-{"source":1, "target":3, "weight":6},
+ "links": [{
+  "source":1, "target":3, "weight":6},
 {"source":1, "target":6, "weight":6},
 {"source":19, "target":1, "weight":15},
 {"source":17 ,"target":1, "weight":9},
@@ -154,9 +149,4 @@
 {"source":26,"target":17, "weight":11},
 {"source":27,"target":23, "weight":20},
 {"source":27,"target":3, "weight":20},
-{"source":27,"target":18, "weight":9},
-
-
-
-]
-} 
+{"source":27,"target":18, "weight":9}]} 
