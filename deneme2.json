@@ -1,152 +1,742 @@
-  {"nodes":[
-{"name":"Java", "id":1,"influence":25, "zone":1},
-{"name":"Java","id":2,"influence":4, "zone":1},
-{"name":"C#","id":3, "influence":12, "zone":1},
-{"name":"Python","id":4,"influence":4, "zone":1},
-{"name":"Ruby","id":5,"influence":4, "zone":1},
-{"name":"Asp.Net","id":27,"influence":4, "zone":1},
-{"name":"Nodejs","id":6,"influence":4, "zone":1},
-{"name":"Angularjs","id":7, "influence":15, "zone":2},
-{"name":"Ajax","id":8,"influence":4, "zone":2},
-{"name":"HTML","id":9,"influence":4, "zone":2},
-{"name":"CSS","id":10,"influence":4, "zone":2},
-{"name":"Javascript","id":11, "influence":4, "zone":2},
-{"name":"Hibernate","id":12, "influence":4, "zone":3},
-{"name":"Toplink","id":13, "influence":4, "zone":3},
-{"name":"EclipseLink","id":14, "influence":4, "zone":3},
-{"name":"Apache","id":15, "influence":4, "zone":3},
-{"name":"IBatıs","id":16, "influence":4, "zone":3},
-{"name":"MySQL","id":17, "influence":5, "zone":4},
-{"name":"MsSQL" ,"id":18, "influence":5, "zone":4},
-{"name":"Oracle" ,"id":19, "influence":15, "zone":4},
-{"name":"PostgreSQL", "id":20,"influence":9, "zone":4},
-{"name":"SQLite","id":21, "influence":9, "zone":4},
-{"name":"BerkeleyDB" ,"id":22, "influence":4, "zone":4},
-{"name":"Windows", "id":23,"influence":24, "zone":5},
-{"name":"Linux","id":24,  "influence":22, "zone":5},
-{"name":"MacOS", "id":25,"influence":20, "zone":5},
-{"name":"Android","id":26,  "influence":10, "zone":5}],
-
-
- "links": [{
-  "source":1, "target":3, "weight":6},
-{"source":1, "target":6, "weight":6},
-{"source":19, "target":1, "weight":15},
-{"source":17 ,"target":1, "weight":9},
-{"source":12 ,"target":1, "weight":8},
-{"source":23 ,"target":1, "weight":15},
-{"source":24 ,"target":1, "weight":8},
-{"source":25 ,"target":1, "weight":10},
-{"source":2, "target":7, "weight":10},
-{"source":2, "target":9, "weight":15},
-{"source":11, "target":2, "weight":10},
-{"source":18, "target":2, "weight":9},
-{"source":10, "target":2, "weight":6},
-{"source":23, "target":2, "weight":10},
-{"source":24, "target":2, "weight":6},
-{"source":25, "target":2, "weight":6},
-{"source":3, "target":7, "weight":9},
-{"source":3, "target":11, "weight":9},
-{"source":27,"target":3, "weight":9},
-{"source":17,"target":3, "weight":9},
-{"source":18,"target":3, "weight":10},
-{"source":23,"target":3, "weight":15},
-{"source":24,"target":3, "weight":6},
-{"source":4,"target":1, "weight":9},
-{"source":4,"target":27, "weight":9},
-{"source":24,"target":4, "weight":12},
-{"source":23,"target":4, "weight":10},
-{"source":25,"target":4, "weight":8},
-{"source":5,"target":1, "weight":8},
-{"source":5,"target":4, "weight":8},
-{"source":23,"target":5, "weight":10},
-{"source":24,"target":5, "weight":6},
-{"source":25,"target":5, "weight":6},
-{"source":26,"target":5, "weight":8},
-{"source":27,"target":9, "weight":8},
-{"source":27,"target":10, "weight":8},
-{"source":11,"target":27, "weight":15},
-{"source":23,"target":27, "weight":20},
-{"source":21,"target":27, "weight":8},
-{"source":6,"target":4, "weight":8},
-{"source":6,"target":11, "weight":15},
-{"source":23,"target":6, "weight":10},
-{"source":24,"target":6, "weight":6},
-{"source":25,"target":6, "weight":6},
-{"source":7,"target":11, "weight":20},
-{"source":7,"target":9, "weight":15},
-{"source":23,"target":7, "weight":10},
-{"source":24,"target":7, "weight":7},
-{"source":2,"target":7, "weight":10},
-{"source":3,"target":7, "weight":15},
-{"source":8,"target":11, "weight":12},
-{"source":8,"target":7, "weight":10},
-{"source":10,"target":8, "weight":8},
-{"source":9,"target":8, "weight":8},
-{"source":9,"target":2, "weight":8},
-{"source":9,"target":7, "weight":8},
-{"source":9,"target":27, "weight":12},
-{"source":10,"target":11, "weight":15},
-{"source":10,"target":9, "weight":20},
-{"source":11,"target":15, "weight":8},
-{"source":11,"target":23, "weight":8},
-{"source":11,"target":15, "weight":10},
-{"source":11,"target":12, "weight":8},
-{"source":12,"target":1, "weight":8},
-{"source":12,"target":17, "weight":12},
-{"source":12,"target":19, "weight":17},
-{"source":13,"target":20, "weight":6},
-{"source":13,"target":17, "weight":13},
-{"source":13,"target":18, "weight":8},
-{"source":13,"target":1, "weight":12},
-{"source":13,"target":19, "weight":18},
-{"source":14,"target":1, "weight":22},
-{"source":14,"target":19, "weight":15},
-{"source":14,"target":17, "weight":8},
-{"source":15,"target":9, "weight":15},
-{"source":15,"target":11, "weight":8},
-{"source":15,"target":2, "weight":12},
-{"source":15,"target":4, "weight":10},
-{"source":16,"target":27, "weight":13},
-{"source":16,"target":1, "weight":15},
-{"source":16,"target":19, "weight":10},
-{"source":17,"target":27, "weight":16},
-{"source":17,"target":2, "weight":10},
-{"source":17,"target":22, "weight":8},
-{"source":17,"target":25, "weight":8},
-{"source":17,"target":24, "weight":10},
-{"source":17,"target":23, "weight":15},
-{"source":18,"target":1, "weight":12},
-{"source":18,"target":2, "weight":10},
-{"source":18,"target":3, "weight":7},
-{"source":18,"target":26, "weight":12},
-{"source":19,"target":4, "weight":10},
-{"source":19,"target":4, "weight":10},
-{"source":20,"target":1, "weight":12},
-{"source":20,"target":3, "weight":14},
-{"source":20,"target":27, "weight":8},
-{"source":21,"target":26, "weight":17},
-{"source":21,"target":4, "weight":10},
-{"source":21,"target":3, "weight":7},
-{"source":22,"target":23, "weight":7},
-{"source":22,"target":24, "weight":9},
-{"source":22,"target":25, "weight":10},
-{"source":22,"target":27, "weight":8},
-{"source":23,"target":3, "weight":10},
-{"source":23,"target":4, "weight":12},
-{"source":23,"target":1, "weight":15},
-{"source":23,"target":11, "weight":7},
-{"source":24,"target":1, "weight":6},
-{"source":24,"target":4, "weight":18},
-{"source":24,"target":5, "weight":7},
-{"source":25,"target":4, "weight":13},
-{"source":25,"target":22, "weight":7},
-{"source":25,"target":2, "weight":10},
-{"source":25,"target":10, "weight":9},
-{"source":26,"target":1, "weight":16},
-{"source":26,"target":21, "weight":10},
-{"source":26,"target":18, "weight":12},
-{"source":26,"target":17, "weight":11},
-{"source":27,"target":23, "weight":20},
-{"source":27,"target":3, "weight":20},
-{"source":27,"target":18, "weight":9}]} 
+ {
+    "nodes": [
+        {
+            "name": "#C",
+            "id": 5,
+            "influence": 1,
+            "zone": 1
+        },
+        {
+            "name": "Ajax",
+            "id": 26,
+            "influence": 1,
+            "zone": 2
+        },
+        {
+            "name": "Android",
+            "id": 14,
+            "influence": 1,
+            "zone": 5
+        },
+        {
+            "name": "Angularjs",
+            "id": 1,
+            "influence": 1,
+            "zone": 2
+        },
+        {
+            "name": "Apache",
+            "id": 18,
+            "influence": 1,
+            "zone": 3
+        },
+        {
+            "name": "Asp.Net",
+            "id": 27,
+            "influence": 1,
+            "zone": 1
+        },
+        {
+            "name": "BerkeleyDB",
+            "id": 8,
+            "influence": 1,
+            "zone": 4
+        },
+        {
+            "name": "CSS",
+            "id": 21,
+            "influence": 1,
+            "zone": 2
+        },
+        {
+            "name": "EclipseLink",
+            "id": 17,
+            "influence": 1,
+            "zone": 3
+        },
+        {
+            "name": "Hibernate",
+            "id": 15,
+            "influence": 1,
+            "zone": 3
+        },
+        {
+            "name": "HTML",
+            "id": 25,
+            "influence": 1,
+            "zone": 2
+        },
+        {
+            "name": "IBatis",
+            "id": 19,
+            "influence": 1,
+            "zone": 3
+        },
+        {
+            "name": "Java",
+            "id": 2,
+            "influence": 1,
+            "zone": 1
+        },
+        {
+            "name": "Javascript",
+            "id": 20,
+            "influence": 1,
+            "zone": 2
+        },
+        {
+            "name": "Linux",
+            "id": 12,
+            "influence": 1,
+            "zone": 5
+        },
+        {
+            "name": "MacOS",
+            "id": 13,
+            "influence": 1,
+            "zone": 5
+        },
+        {
+            "name": "MsSQL",
+            "id": 6,
+            "influence": 1,
+            "zone": 4
+        },
+        {
+            "name": "MySQL",
+            "id": 3,
+            "influence": 1,
+            "zone": 4
+        },
+        {
+            "name": "Nodejs",
+            "id": 24,
+            "influence": 1,
+            "zone": 1
+        },
+        {
+            "name": "Oracle",
+            "id": 7,
+            "influence": 1,
+            "zone": 4
+        },
+        {
+            "name": "PostgreSQL",
+            "id": 10,
+            "influence": 1,
+            "zone": 4
+        },
+        {
+            "name": "Python",
+            "id": 22,
+            "influence": 1,
+            "zone": 1
+        },
+        {
+            "name": "Ruby",
+            "id": 23,
+            "influence": 1,
+            "zone": 1
+        },
+        {
+            "name": "SQLite",
+            "id": 9,
+            "influence": 1,
+            "zone": 4
+        },
+        {
+            "name": "Toplink",
+            "id": 16,
+            "influence": 1,
+            "zone": 3
+        },
+        {
+            "name": "Windows",
+            "id": 11,
+            "influence": 1,
+            "zone": 5
+        }
+    ],
+    "links": [
+        {
+            "source": "MySQL",
+            "target": "BerkeleyDB",
+            "weight": 1
+        },
+        {
+            "source": "MsSQL",
+            "target": "C#",
+            "weight": 1
+        },
+        {
+            "source": "SQLite",
+            "target": "C#",
+            "weight": 1
+        },
+        {
+            "source": "BerkeleyDB",
+            "target": "MacOS",
+            "weight": 1
+        },
+        {
+            "source": "BerkeleyDB",
+            "target": "Windows",
+            "weight": 2
+        },
+        {
+            "source": "PostgreSQL",
+            "target": "Asp.Net",
+            "weight": 2
+        },
+        {
+            "source": "Windows",
+            "target": "Javascript",
+            "weight": 2
+        },
+        {
+            "source": "Linux",
+            "target": "Java",
+            "weight": 2
+        },
+        {
+            "source": "MySQL",
+            "target": "Asp.Net",
+            "weight": 2
+        },
+        {
+            "source": "Apache",
+            "target": "Python",
+            "weight": 2
+        },
+        {
+            "source": "SQLite",
+            "target": "Python",
+            "weight": 2
+        },
+        {
+            "source": "CSS",
+            "target": "Java",
+            "weight": 2
+        },
+        {
+            "source": "Java",
+            "target": "Angularjs",
+            "weight": 2
+        },
+        {
+            "source": "Toplink",
+            "target": "MsSQL",
+            "weight": 2
+        },
+        {
+            "source": "Toplink",
+            "target": "PostgreSQL",
+            "weight": 3
+        },
+        {
+            "source": "EclipseLink",
+            "target": "MySQL",
+            "weight": 3
+        },
+        {
+            "source": "Javascript",
+            "target": "Apache",
+            "weight": 3
+        },
+        {
+            "source": "Javascript",
+            "target": "Hibernate",
+            "weight": 3
+        },
+        {
+            "source": "Hibernate",
+            "target": "MySQL",
+            "weight": 3
+        },
+        {
+            "source": "HTML",
+            "target": "Java",
+            "weight": 3
+        },
+        {
+            "source": "SQLite",
+            "target": "Asp.Net",
+            "weight": 3
+        },
+        {
+            "source": "Linux",
+            "target": "Nodejs",
+            "weight": 3
+        },
+        {
+            "source": "MacOS",
+            "target": "Nodejs",
+            "weight": 3
+        },
+        {
+            "source": "MsSQL",
+            "target": "Java",
+            "weight": 3
+        },
+        {
+            "source": "MySQL",
+            "target": "C#",
+            "weight": 3
+        },
+        {
+            "source": "MsSQL",
+            "target": "C#",
+            "weight": 3
+        },
+        {
+            "source": "Java",
+            "target": "C#",
+            "weight": 3
+        },
+        {
+            "source": "Java",
+            "target": "Nodejs",
+            "weight": 3
+        },
+        {
+            "source": "Linux",
+            "target": "C#",
+            "weight": 3
+        },
+        {
+            "source": "Python",
+            "target": "Java",
+            "weight": 3
+        },
+        {
+            "source": "MacOS",
+            "target": "Python",
+            "weight": 3
+        },
+        {
+            "source": "MacOS",
+            "target": "Ruby",
+            "weight": 3
+        },
+        {
+            "source": "Asp.Net",
+            "target": "HTML",
+            "weight": 3
+        },
+        {
+            "source": "MacOS",
+            "target": "CSS",
+            "weight": 3
+        },
+        {
+            "source": "Android",
+            "target": "MsSQL",
+            "weight": 3
+        },
+        {
+            "source": "Asp.Net",
+            "target": "MsSQL",
+            "weight": 3
+        },
+        {
+            "source": "IBatis",
+            "target": "Asp.Net",
+            "weight": 3
+        },
+        {
+            "source": "MySQL",
+            "target": "Java",
+            "weight": 3
+        },
+        {
+            "source": "MsSQL",
+            "target": "Android",
+            "weight": 3
+        },
+        {
+            "source": "Oracle",
+            "target": "Python",
+            "weight": 3
+        },
+        {
+            "source": "MacOS",
+            "target": "Python",
+            "weight": 3
+        },
+        {
+            "source": "PostgreSQL",
+            "target": "C#",
+            "weight": 3
+        },
+        {
+            "source": "BerkeleyDB",
+            "target": "Linux",
+            "weight": 3
+        },
+        {
+            "source": "BerkeleyDB",
+            "target": "Asp.Net",
+            "weight": 3
+        },
+        {
+            "source": "PostgreSQL",
+            "target": "Java",
+            "weight": 4
+        },
+        {
+            "source": "Windows",
+            "target": "Python",
+            "weight": 4
+        },
+        {
+            "source": "Linux",
+            "target": "Python",
+            "weight": 4
+        },
+        {
+            "source": "IBatis",
+            "target": "Oracle",
+            "weight": 4
+        },
+        {
+            "source": "MsSQL",
+            "target": "Java",
+            "weight": 4
+        },
+        {
+            "source": "Apache",
+            "target": "Javascript",
+            "weight": 4
+        },
+        {
+            "source": "Apache",
+            "target": "Java",
+            "weight": 4
+        },
+        {
+            "source": "MySQL",
+            "target": "MacOS",
+            "weight": 4
+        },
+        {
+            "source": "MySQL",
+            "target": "Linux",
+            "weight": 4
+        },
+        {
+            "source": "Android",
+            "target": "SQLite",
+            "weight": 4
+        },
+        {
+            "source": "Android",
+            "target": "MySQL",
+            "weight": 4
+        },
+        {
+            "source": "MacOS",
+            "target": "Java",
+            "weight": 4
+        },
+        {
+            "source": "Asp.Net",
+            "target": "CSS",
+            "weight": 4
+        },
+        {
+            "source": "Javascript",
+            "target": "Asp.Net",
+            "weight": 4
+        },
+        {
+            "source": "Android",
+            "target": "Ruby",
+            "weight": 4
+        },
+        {
+            "source": "Asp.Net",
+            "target": "Ruby",
+            "weight": 4
+        },
+        {
+            "source": "Windows",
+            "target": "Python",
+            "weight": 4
+        },
+        {
+            "source": "Linux",
+            "target": "Ruby",
+            "weight": 4
+        },
+        {
+            "source": "Ruby",
+            "target": "Java",
+            "weight": 4
+        },
+        {
+            "source": "Ruby",
+            "target": "Python",
+            "weight": 4
+        },
+        {
+            "source": "Python ",
+            "target": "Asp.Net",
+            "weight": 4
+        },
+        {
+            "source": "MySQL",
+            "target": "Java",
+            "weight": 4
+        },
+        {
+            "source": "Hibernate",
+            "target": "Java",
+            "weight": 4
+        },
+        {
+            "source": "Linux",
+            "target": "Java",
+            "weight": 4
+        },
+        {
+            "source": "MacOS",
+            "target": "Java",
+            "weight": 4
+        },
+        {
+            "source": "Java",
+            "target": "Angularjs",
+            "weight": 4
+        },
+        {
+            "source": "Javascript",
+            "target": "Java",
+            "weight": 4
+        },
+        {
+            "source": "C#",
+            "target": "Javascript",
+            "weight": 4
+        },
+        {
+            "source": "C#",
+            "target": "Angularjs",
+            "weight": 4
+        },
+        {
+            "source": "Asp.Net",
+            "target": "C#",
+            "weight": 4
+        },
+        {
+            "source": "Angularjs",
+            "target": "HTML",
+            "weight": 4
+        },
+        {
+            "source": "Windows",
+            "target": "Angularjs",
+            "weight": 4
+        },
+        {
+            "source": "Nodejs",
+            "target": "Python",
+            "weight": 4
+        },
+        {
+            "source": "Ajax",
+            "target": "Javascript",
+            "weight": 4
+        },
+        {
+            "source": "Hibernate",
+            "target": "Java",
+            "weight": 4
+        },
+        {
+            "source": "Javascript",
+            "target": "Windows",
+            "weight": 4
+        },
+        {
+            "source": "CSS",
+            "target": "Ajax",
+            "weight": 4
+        },
+        {
+            "source": "Toplink",
+            "target": "Java",
+            "weight": 4
+        },
+        {
+            "source": "Toplink",
+            "target": "Oracle",
+            "weight": 4
+        },
+        {
+            "source": "EclipseLink",
+            "target": "Java",
+            "weight": 5
+        },
+        {
+            "source": "EclipseLink",
+            "target": "Oracle",
+            "weight": 5
+        },
+        {
+            "source": "Apache",
+            "target": "HTML",
+            "weight": 5
+        },
+        {
+            "source": "Toplink",
+            "target": "MySQL",
+            "weight": 5
+        },
+        {
+            "source": "HTML",
+            "target": "Ajax",
+            "weight": 5
+        },
+        {
+            "source": "Hibernate",
+            "target": "Oracle",
+            "weight": 5
+        },
+        {
+            "source": "Ajax",
+            "target": "Angularjs",
+            "weight": 5
+        },
+        {
+            "source": "C#",
+            "target": "Angularjs",
+            "weight": 5
+        },
+        {
+            "source": "HTML",
+            "target": "Angularjs",
+            "weight": 5
+        },
+        {
+            "source": "HTML",
+            "target": "Asp.Net",
+            "weight": 5
+        },
+        {
+            "source": "CSS",
+            "target": "Javascript",
+            "weight": 5
+        },
+        {
+            "source": "CSS",
+            "target": "HTML",
+            "weight": 5
+        },
+        {
+            "source": "Nodejs",
+            "target": "Javascript",
+            "weight": 5
+        },
+        {
+            "source": "Windows",
+            "target": "Nodejs",
+            "weight": 5
+        },
+        {
+            "source": "Angularjs",
+            "target": "Javascript",
+            "weight": 5
+        },
+        {
+            "source": "Windows",
+            "target": "C#",
+            "weight": 5
+        },
+        {
+            "source": "Java",
+            "target": "HTML",
+            "weight": 5
+        },
+        {
+            "source": "Windows",
+            "target": "Java",
+            "weight": 5
+        },
+        {
+            "source": "Oracle",
+            "target": "Java",
+            "weight": 5
+        },
+        {
+            "source": "Linux",
+            "target": "Python",
+            "weight": 5
+        },
+        {
+            "source": "Windows",
+            "target": "Ruby",
+            "weight": 5
+        },
+        {
+            "source": "Windows",
+            "target": "Asp.Net",
+            "weight": 5
+        },
+        {
+            "source": "Android",
+            "target": "Java",
+            "weight": 5
+        },
+        {
+            "source": "Asp.Net",
+            "target": "Windows",
+            "weight": 5
+        },
+        {
+            "source": "Asp.Net",
+            "target": "C#",
+            "weight": 5
+        },
+        {
+            "source": "MySQL",
+            "target": "Windows",
+            "weight": 5
+        },
+        {
+            "source": "IBatis",
+            "target": "Java",
+            "weight": 5
+        },
+        {
+            "source": "Oracle",
+            "target": "Java",
+            "weight": 5
+        },
+        {
+            "source": "Linux",
+            "target": "Ruby",
+            "weight": 5
+        },
+        {
+            "source": "Windows",
+            "target": "Java",
+            "weight": 5
+        },
+        {
+            "source": "MacOS",
+            "target": "BerkeleyDB",
+            "weight": 5
+        },
+        {
+            "source": "SQLite",
+            "target": "Android",
+            "weight": 5
+        },
+        {
+            "source": "Windows",
+            "target": "C#",
+            "weight": 5
+        }
+    ]
+}
